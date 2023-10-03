@@ -28,4 +28,3 @@ https://github.com/pasqualerossi/42-Cursus-Tester
 
 <img width="1914" alt="Screen Shot 2021-09-29 at 4 37 29 PM" src="https://www.geekboots.com/_next/image?url=https%3A%2F%2Fcdn.geekboots.com%2Fgeek%2Fmost-useful-standard-library-functions-in-c-language-hero-1677491331376.webp&w=1080&q=75"> 
 
-![image](https://user-images.githubusercontent.com/58959408/150704272-0d7b454d-2872-4695-aade-e5bc9c3b79aa.jpg)
