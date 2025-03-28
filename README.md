@@ -1,30 +1,46 @@
-# Libft Introduction
+# Libft - Your Own C Library
 
-Libft (Library of Functions)
+## Summary
 
-In this project, you will be creating a library of functions, the file structure for this project is the following:
+Libft is a comprehensive C library that I developed as a student project. It includes a set of standard libc functions and additional utility functions. The project aims to provide a robust foundation for future C programming endeavors by ensuring a deep understanding of these essential functions and facilitating their reuse.
 
-### .c Files 
-Where all of your functions will be written in. 
+## Project Structure
 
-### .h (Header)
-Your header file is useful for 2 things:
-- First, instead of doing for example `#include <unistd.h>` in all of your .c files, you just write it once in your header and all of your .c files will read it from your header file. 
-- Secondly, let's say one of your .c files uses another function from another .c file, well instead of writting that function above, just write `#include "libft.h"` and it will find it in your header file. 
+The repository is organized with the following structure:
 
-Make sure you add `#include "libft.h"` in all of your .c files.
+- `Makefile`: Automation script for compilation and project management.
+- `inc/libft.h`: Header file containing function prototypes and necessary definitions.
+- `src/ft_*.c`: Source files implementing various functions.
 
-### Makefile 
-Makefile is where you will create a file to compile your projects. Remember how in the piscine, you created an **int main** and **gcc** to compile the projects, well with a Makefile, you don't have to do that anymore, you just type `make` once you have created your Makefile. 
+## Features
 
-# Great Resource for Libft
+### Part 1 - Functions from the libc
 
-https://www.asidesigned.com/project-libft.html 
+The library includes meticulously crafted versions of standard libc functions such as `toupper`, `tolower`, `strchr`, `strncmp`, and more. Each function has the same prototype and behavior as its libc counterpart.
 
-# Link To Libft Tester
-https://github.com/pasqualerossi/42-Cursus-Tester
+### Part 2 - Additional Functions
 
-# My Libft Results
+In addition to standard libc functions, the library offers extra utility functions like `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`, `ft_itoa`, and more. These functions enhance the versatility of the library for various programming tasks.
 
-<img width="1914" alt="Screen Shot 2021-09-29 at 4 37 29 PM" src="https://www.geekboots.com/_next/image?url=https%3A%2F%2Fcdn.geekboots.com%2Fgeek%2Fmost-useful-standard-library-functions-in-c-language-hero-1677491331376.webp&w=1080&q=75"> 
+### Bonus Part - Linked List Operations
 
+For a more advanced touch, the library includes functions for working with linked lists. This bonus section adds functionality like creating a new list element (`ft_lstnew`), adding elements to the front (`ft_lstadd_front`), finding the size of the list (`ft_lstsize`), and more.
+
+## Project Completion
+
+The project is considered complete as it adheres to the following guidelines:
+
+- All functions have been implemented according to specifications.
+- Code follows the `42 School` Norm for C programming.
+- Memory management is efficient, avoiding memory leaks.
+- A Makefile automates the compilation process.
+
+## Acquired Skills
+
+Throughout the development of Libft, I have gained proficiency in the following areas:
+
+- **C Programming:** Enhanced skills in writing efficient and well-structured C code.
+- **Algorithmic Thinking:** Developed algorithms for various functions, ensuring optimal performance.
+- **Memory Management:** Mastered dynamic memory allocation and deallocation.
+- **Makefile Usage:** Created a Makefile for project compilation and management.
+- **Git Version Control:** Managed project versions and collaborated through Git repositories.
